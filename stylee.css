@@ -1,0 +1,257 @@
+@font-face {
+  font-family: lonely cake;
+  src: url(cool.otf);
+  src: url(cool.woff);
+  src: url(cool.woff2);
+}
+
+.quiesom
+    h1{
+        font-family: coolvetica;
+        color: #000000;
+        padding: 20%;
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 1.9em;
+        line-height: 1.2;
+        margin-bottom: 100%;
+        text-align: center;
+    
+}
+
+ h2{
+      font-size: 30px;
+      font-family: lonely cake;
+      align-items: center;
+      font-weight: normal;
+
+    }
+    
+body{
+    background-color: rgb(136, 205, 226);
+    color: #050101;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: Left "justify-align";
+}
+img{ 
+    height: 100%;
+    max-width: 100%;
+}
+.parrafovision{ 
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-align: Left "justify-align";
+    }
+
+.parrafovalores{
+    font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-align: Left "justify-align";
+}
+
+.encabezadoluisbakery {
+    background-color: rgb(85, 192, 231);
+    font-family: lonely cake;
+    padding-top: 0;
+    font-size: 30px;
+    width: 100%;
+    height: 90px;
+    color: black;
+    text-align: center;
+    line-height: 0;
+    line-break: 0;
+    align-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    }
+
+
+    .titulo{
+      color: rgb(0, 0, 0);
+      text-decoration: black;
+      line-height: 0;
+      top: 0;
+    }
+
+   
+
+  .contain{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(82, 168, 194);
+  }
+
+  .prueba1{
+    position: fixed;
+    top: 90px;
+    left: 100px;
+    display: block;
+    background-color: rgb(144, 204, 223);
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(145, 134, 134);
+    font-size: 25px;
+    border-radius: 10px;
+    .pruba1{
+      color: #4b4b4b;
+      font-family: lonely cake;
+      text-decoration: none;
+    }
+   }
+
+
+   .prueba1:hover{
+    -moz-transform: rotate(-5deg);
+    -moz-box-shadow: 10px 10px 20px rgb(55, 164, 197);
+    -webkit-transform: rotate(-5deg);
+    -webkit-box-shadow: 10px 10px 20px rgb(19, 89, 110);
+    margin-left: 10px;
+   }
+
+
+  .prueba3{
+    position: fixed;
+    top: 90px;
+    left: 300px;
+    display: block;
+    background-color: rgb(144, 204, 223);
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(145, 134, 134);
+    font-size: 25px;
+    border-radius: 10px;
+    .pruba3{
+      color: #4b4b4b;
+      font-family: lonely cake;
+      text-decoration: none;
+    }
+   }
+
+
+   .prueba3:hover{
+    -moz-transform: rotate(-5deg);
+    -moz-box-shadow: 10px 10px 20px rgb(55, 164, 197);
+    -webkit-transform: rotate(-5deg);
+    -webkit-box-shadow: 10px 10px 20px rgb(19, 89, 110);
+    margin-left: 10px;
+   }
+
+
+   .prueba{
+    position: fixed;
+    top: 90px;
+    left: 600px;
+    display: block;
+    background-color: rgb(144, 204, 223);
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    .pruba{
+      color: #4b4b4b;
+      font-family: lonely cake;
+      text-decoration: none;
+    }
+   }
+
+
+   .prueba:hover{
+    -moz-transform: rotate(-5deg);
+    -moz-box-shadow: 10px 10px 20px rgb(55, 164, 197);
+    -webkit-transform: rotate(-5deg);
+    -webkit-box-shadow: 10px 10px 20px rgb(19, 89, 110);
+    margin-left: 10px;
+   }
+
+
+   .prueba2{
+    position: fixed;
+    top: 90px;
+    left: 860px;
+    display: block;
+    background-color: rgb(144, 204, 223);
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    .pruba2{
+      color: #4b4b4b;
+      font-family: lonely cake;
+      text-decoration: none;
+    }
+   }
+
+
+   .prueba2:hover{
+    -moz-transform: rotate(-5deg);
+    -moz-box-shadow: 10px 10px 20px rgb(55, 164, 197);
+    -webkit-transform: rotate(-5deg);
+    -webkit-box-shadow: 10px 10px 20px rgb(19, 89, 110);
+    margin-left: 10px;
+   }
+
+
+   .prueba4{
+    position: fixed;
+    top: 90px;
+    left: 1090px;
+    display: block;
+    background-color: rgb(144, 204, 223);
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    .pruba4{
+      color: #4b4b4b;
+      font-family: lonely cake;
+      text-decoration: none;
+    }
+   }
+
+
+   .prueba4:hover{
+    -moz-transform: rotate(-5deg);
+    -moz-box-shadow: 10px 10px 20px rgb(55, 164, 197);
+    -webkit-transform: rotate(-5deg);
+    -webkit-box-shadow: 10px 10px 20px rgb(19, 89, 110);
+    margin-left: 10px;
+   }
+
+   .copyrights{
+    position:absolute;
+    top: 2800px;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(18, 118, 148);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+  }
+
+  h3{
+    font-weight: normal;
+    font-size: 15px;
+  }

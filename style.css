@@ -1,0 +1,460 @@
+@font-face {
+    font-family: lonely cake;
+    src: url(cool.otf);
+    src: url(cool.woff);
+    src: url(cool.woff2);
+}
+
+@font-face{
+  font-family: odin;
+    src: url(odin.ttf);
+    src: url(odin.woff);
+    src: url(odin.woff2);
+}
+body { 
+    background-color: white;    
+}
+ 
+  .imglogo{
+    position: absolute;
+    left: 295px;
+    right:0;
+    top: 160px;
+  }
+  .contenedor{
+      display: flex;
+      width:900px;
+      height: 100px;
+      color: black;
+      font-size: 100px;
+      line-height: 100px;
+      font-family: lonely cake;
+
+      position: absolute;
+      top: 161px;
+      left: 432px;
+      right: 0;
+      bottom: 0;
+      margin: center;
+    
+      overflow: hidden;
+
+    ul{
+      list-style: none;
+      padding-left: 30px;
+      animation:cambiar 15s infinite;
+      color: #865023;
+    } 
+    ul, p{
+      margin: 0;
+    }
+  }
+  
+
+
+  @keyframes cambiar {
+      0%{margin-top: 0;}
+      6%{margin-top: 0;}
+      12%{margin-top: -100px;}
+      18%{margin-top: -100px;}
+      24%{margin-top: -200px;}
+      30%{margin-top: -200px;}
+      36%{margin-top: -300px;}
+      42%{margin-top: -300px;}
+      48%{margin-top: -400px;}
+      54%{margin-top: -400px;}
+      60%{margin-top: -500px;}
+      66%{margin-top: -500px;}
+      72%{margin-top: -600px;}
+      78%{margin-top: -600px;}
+      84%{margin-top: -700px;}
+      90%{margin-top: -700px;}
+  }
+  
+  .img1{
+    top: 290px;
+    left: 80px;
+    position: absolute;
+        font-family: lonely cake;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 15px;
+  }
+
+  .img2{
+    top: 290px;
+    left: 520px;
+    position: absolute;
+        font-family:lonely cake;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 15px;
+  }
+  .img3{
+    top: 290px;
+    left: 950px;
+    position: absolute;
+        font-family: lonely cake;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 15px;
+  }
+
+  .nosotros{
+    position:absolute;
+    background-color: rgb(71, 173, 204);
+    width: 100%;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    top: 680px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 0;
+    font-family: lonely cake;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .imgnosotros{
+    position:absolute;
+    top: 780px;
+    left: 175px;
+    right: 0;
+    bottom: 0;
+  }
+  .nosotrosparrafo{
+    position:absolute;
+    top: 1280px;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 1000px;
+  }
+  .quienesomos{
+    position:absolute;
+    width: 180px;
+    height: 37px;
+    top: 1400px;
+    left: 590px;
+    background-color: rgb(98, 187, 214);
+    color: black;
+    font-family: lonely cake;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.8;
+    }
+
+  .catalogo{
+    position: absolute;
+    top: 1480px;
+    left: 0;
+    width: 100%;
+    height: 520px;
+    background-color: rgb(33, 141, 173);
+    font-family: lonely cake;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 10px;
+  }
+
+  .catalogoparrafo{
+    position:absolute;
+    top: 1570px;
+    left: 775px;
+    right: 0;
+    bottom: 0;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 500px;
+  }
+
+  .catalogogo{
+    position:absolute;
+    top: 1900px;
+    left: 880px;
+    right: 0;
+    bottom: 0;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 340px;
+    background-color: white;
+  }
+
+  .catologogoo{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+  }
+
+  .imgcatalogo{
+    position: absolute;
+    top: 1580px;
+    left: 40px;
+  }
+
+  .entodag{
+    color: black;
+    font-family: lonely cake;
+    font-size: 50px;
+    position: absolute;
+    top:1980px;
+    left: 420px;
+  }
+
+  .solola{
+    position: absolute;
+    top: 2100px;
+    left: 640px;
+  }
+
+  .entodagparrafo{
+    position:absolute;
+    top: 2100px;
+    left: 75px;
+    right: 0;
+    bottom: 0;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 500px;
+    line-height: 1.7;
+  }
+
+  .contactaa{
+    position:absolute;
+    top: 2400px;
+    left: 150px;
+    right: 0;
+    bottom: 0;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 340px;
+    background-color: rgb(33, 141, 173);
+  }
+
+  .contactaano{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(72, 173, 204);
+  }
+
+  .copyrights{
+    position:absolute;
+    top: 2500px;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(18, 118, 148);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+  }
+
+  .encabezadoluisbakery {
+    background-color: rgb(82, 168, 194);
+    font-family: lonely cake;
+    padding-top: 0;
+    font-size: 30px;
+    width: 100%;
+    height: 80px;
+    color: black;
+    text-align: center;
+    line-height: 0;
+    line-break: 0;
+    align-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    } 
+
+    .titulo{
+      color: rgb(0, 0, 0);
+      text-decoration: black;
+      line-height: 0%;
+      top: 0;
+    }
+
+    .contain{
+      position: absolute;
+      top: 88px;
+      left: 0;
+      right: 0;
+      background-color: rgb(255, 255, 255);
+      height: 80px;
+      width: 100%;
+      overflow: hidden;
+      tr, td{
+        animation: cambia 8s forwards;
+      }
+    }
+  
+    @keyframes cambia {
+      0%{margin-top: 0;}
+      25%{margin-top: 0;}
+      50%{margin-top: -90px;}
+      75%{margin-top: -90px;}
+      100%{margin-top: -90px;}
+    }
+
+    .prueba1{
+      position: absolute;
+      top: 90px;
+      left: 100px;
+      display: flex;
+      background-color: rgb(144, 204, 223);
+      padding: 5px;
+      text-decoration: none;
+      color: rgb(145, 134, 134);
+      font-size: 25px;
+      border-radius: 10px;
+      overflow: hidden;
+      .pruba1{
+        color: #4b4b4b;
+        font-family: lonely cake;
+        text-decoration: none;
+    
+      }
+     }
+  
+  
+     .prueba1:hover{
+      -moz-transform: rotate(-5deg);
+      -moz-box-shadow: 10px 10px 20px rgb(55, 164, 197);
+      -webkit-transform: rotate(-5deg);
+      -webkit-box-shadow: 10px 10px 20px rgb(19, 89, 110);
+      margin-left: 10px;
+     }
+  
+  
+    .prueba3{
+      position: absolute;
+      top: 90px;
+      left: 300px;
+      display: block;
+      background-color: rgb(144, 204, 223);
+      padding: 5px;
+      text-decoration: none;
+      color: rgb(145, 134, 134);
+      font-size: 25px;
+      border-radius: 10px;
+      .pruba3{
+        color: #4b4b4b;
+        font-family: lonely cake;
+        text-decoration: none;
+      }
+     }
+  
+  
+     .prueba3:hover{
+      -moz-transform: rotate(-5deg);
+      -moz-box-shadow: 10px 10px 20px rgb(55, 164, 197);
+      -webkit-transform: rotate(-5deg);
+      -webkit-box-shadow: 10px 10px 20px rgb(19, 89, 110);
+      margin-left: 10px;
+     }
+  
+  
+     .prueba{
+      position: absolute;
+      top: 90px;
+      left: 600px;
+      display: block;
+      background-color: rgb(144, 204, 223);
+      padding: 5px;
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      border-radius: 10px;
+      .pruba{
+        color: #4b4b4b;
+        font-family: lonely cake;
+        text-decoration: none;
+      }
+     }
+  
+  
+     .prueba:hover{
+      -moz-transform: rotate(-5deg);
+      -moz-box-shadow: 10px 10px 20px rgb(55, 164, 197);
+      -webkit-transform: rotate(-5deg);
+      -webkit-box-shadow: 10px 10px 20px rgb(19, 89, 110);
+      margin-left: 10px;
+     }
+  
+  
+     .prueba2{
+      position: absolute;
+      top: 90px;
+      left: 860px;
+      display: block;
+      background-color: rgb(144, 204, 223);
+      padding: 5px;
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      border-radius: 10px;
+      .pruba2{
+        color: #4b4b4b;
+        font-family: lonely cake;
+        text-decoration: none;
+      }
+     }
+  
+  
+     .prueba2:hover{
+      -moz-transform: rotate(-5deg);
+      -moz-box-shadow: 10px 10px 20px rgb(55, 164, 197);
+      -webkit-transform: rotate(-5deg);
+      -webkit-box-shadow: 10px 10px 20px rgb(19, 89, 110);
+      margin-left: 10px;
+     }
+  
+  
+     .prueba4{
+      position: absolute;
+      top: 90px;
+      left: 1090px;
+      display: block;
+      background-color: rgb(144, 204, 223);
+      padding: 5px;
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      border-radius: 10px;
+      .pruba4{
+        color: #4b4b4b;
+        font-family: lonely cake;
+        text-decoration: none;
+      }
+     }
+  
+  
+     .prueba4:hover{
+      -moz-transform: rotate(-5deg);
+      -moz-box-shadow: 10px 10px 20px rgb(55, 164, 197);
+      -webkit-transform: rotate(-5deg);
+      -webkit-box-shadow: 10px 10px 20px rgb(19, 89, 110);
+      margin-left: 10px;
+     }
+
+  
